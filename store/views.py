@@ -205,7 +205,7 @@ def checkout(request):
             'Podaci o korisniku',
             html_message,
             settings.EMAIL_HOST_USER,
-            ['darko.spasojevic33@gmail.com'],
+            ['darko.spasojevic.django24@gmail.com'],
         )
         
         email.fail_silently = False
